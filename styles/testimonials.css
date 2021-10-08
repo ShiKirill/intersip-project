@@ -1,0 +1,133 @@
+/* TESTIMONIALS BLOCK */
+
+.testimonials {
+  display: flex;
+  justify-content: space-between;
+  height: 37.5625rem;
+  background: #F5FCFD;
+}
+
+.testimonials-pict {
+  position: relative;
+  width: 40.6%;
+}
+
+.testimonials-pict img {
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+
+.testimonials-info {
+  width: 54.3%;
+}
+
+.testimonials-title {
+  margin-top: 7.0625rem;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+.slider-block {
+  margin-top: 2.5rem;
+}
+
+.slick-track {
+  height: 100%;
+}
+
+.slider-block-items {
+  height: 13.7rem;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  position: relative;
+}
+
+.slider-block-item {
+  height: 98%;
+  padding-top: 2.3rem;
+  padding-left: 1.875rem;
+  margin-right: 1.875rem;
+  width: 22.6rem !important;
+  background: #FFFFFF;
+  box-shadow: 0 0.25rem 1.25rem rgba(0, 70, 156, 0.08);
+  border-radius: 0.3125rem;
+  position: relative;
+}
+
+.slider-item-name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+}
+
+.slider-item-position {
+  margin-top: 0.8rem;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  color: #999999;
+}
+
+.slider-item-text {
+  width: 90%;
+  margin-top: 1.5625rem;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+.slider-item-icon {
+  position: absolute;
+  width: 6.6%;
+  top: 3.125rem;
+  right: 2.4875rem;
+}
+
+.slick-dots {
+  display: flex;
+  position: absolute;
+  padding: 0;
+  list-style: none;
+  bottom: -2.7rem;
+  margin: 0;
+}
+
+.slick-dots li {
+  width: 0.75rem;
+  height: 0.75rem;
+  border: 1.6px solid #0063DD;
+  border-radius: 2rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.slick-dots li:first-child {
+  margin: 0;
+}
+
+.slick-dots li:hover {
+  background: #0063DD;
+}
+
+.slick-dots li button {
+  border: none;
+  width: 100%;
+  padding: 0;
+  height: 100%;
+  background: transparent;
+  color: transparent;
+}
+
+.slick-dots li.slick-active {
+  width: 2.375rem;
+  background: #0063DD;
+}
+
+/* TESTIMONIALS BLOCK END */

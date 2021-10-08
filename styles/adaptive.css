@@ -1,0 +1,393 @@
+/* ADAPTIVE */
+
+@media all and (min-width: 2000px) {
+  html {
+    font-size: 110%;
+  }
+  .header-menu-list {
+    right: 21%;
+  }
+  .button-reg {
+    right: 9%;
+  }
+  .header-top {
+    font-size: 120%;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .testimonials-pict img {
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 1900px) {
+  .work-steps-line {
+    top: 21%;
+  }
+}
+
+@media screen and (max-width: 1850px) {
+  header {
+    background-position: center;
+  }
+  .header-menu-list {
+    right: 22%;
+  }
+  .phone-block {
+    width: 50%;
+  }
+  .footer-main-content {
+    width: 80%;
+  }
+  .work-steps-line {
+    top: 20%;
+  }
+}
+
+@media screen and (max-width: 1670px) {
+  html {
+    font-size: 90%;
+  }
+  .work-steps-line {
+    top: 16.5%;
+  }
+  .footer-main-content {
+    width: 90%;
+  }
+  .free-trial-content {
+    width: 50%;
+  }
+  .services-block-items {
+    width: 70%;
+  }
+  .phone-block {
+    width: 65%;
+  }
+  .pricing-plan-content {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .work-steps-line {
+    top: 13%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  html {
+    font-size: 80%;
+  }
+  .footer-menu {
+    margin-left: 2%;
+  }
+  .header-menu-list {
+    right: 25%;
+  }
+  .work-steps {
+    width: 80%;
+  }
+  .work-steps-line {
+    top: 18%;
+  }
+  .footer-main-content {
+    width: 93%;
+  }
+  .services-block-items {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .work-steps-line {
+    top: 16%;
+  }
+  .subscription-content {
+    width: 50%;
+  }
+  .services-block-item {
+    height: 20rem;
+  }
+  .pricing-plan-content {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .work-steps {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 855px) {
+  .work-steps-line {
+    top: 15%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 75%;
+  }
+  .testimonials-pict {
+    display: none;
+  }
+  .testimonials {
+    justify-content: center;
+  }
+  .testimonials-info {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+  }
+  .testimonials-title {
+    text-align: center;
+  }
+  .pricing-plan-content {
+    width: 80%;
+  }
+  .footer-main-content {
+    width: 95%;
+  }
+  .services-block-items {
+    width: 97%;
+    flex-direction: column;
+    margin-top: 3rem;
+  }
+  .about-block-content {
+    width: 80%;
+  }
+  .about-bg.second, .about-bg.first {
+    top: 0;
+    left: 0;
+  }
+  .about-photo.second, .about-photo.first {
+    top: 15%;
+    left: 13%;
+  }
+  header {
+    height: 50rem;
+  }
+  .header-menu-list, .button-reg {
+    display: none;
+  }
+  .header-info-block {
+    width: 50%;
+  }
+  .menu-btn {
+    display: flex;
+  }
+  .hamburger-menu {
+    display: block;
+  }
+  .services-block {
+    height: auto;
+  }
+  .services-block-item:nth-child(2) {
+    margin-top: 2rem;
+  }
+  .services-block-item {
+    margin: 0;
+    width: 40%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .about-block {
+    height: auto;
+  }
+  .about-block-content {
+    margin-bottom: 2rem;
+    justify-items: center;
+    grid-template-areas: "post1" "post2" "post4" "post3";
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+    grid-template-rows: 18rem 15rem 18rem 15rem;
+    margin-top: 1rem;
+  }
+  .first-about-item, .fourth-about-item {
+    width: 40%;
+  }
+  .second-about-item, .third-about-item {
+    width: 90%;
+    text-align: center;
+  }
+  .about-title {
+    margin-top: 0;
+  }
+  .about-text {
+    width: 100%;
+  }
+  .work-steps-line {
+    display: none;
+  }
+  .how-works {
+    height: auto;
+  }
+  .work-steps {
+    flex-direction: column;
+    align-items: center;
+  }
+  .work-steps-item {
+    width: 70%;
+    margin-bottom: 2rem;
+  }
+  .free-trial-content {
+    width: 70%;
+  }
+  .news-block {
+    height: auto;
+  }
+  .news-block-items {
+    grid-template-areas: "post1" "post2" "post3" "post4";
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr 1fr 1fr 1fr;
+  }
+  .news-continue-link {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  .news-block-info {
+    width: 50%;
+  }
+  .footer-main-content {
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+  }
+  .footer-menu {
+    margin-left: 0;
+  }
+  .footer-list-item {
+    margin-left: 1rem;
+  }
+  .footer-list-item:first-child {
+    margin-left: 1.5rem;
+  }
+  .pricing-plan-content {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .about-block-content {
+    width: 90%;
+  }
+  .pricing-plan {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+  .pricing-plan-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .pricing-plan-info {
+    width: 100%;
+    margin-right: 0;
+  }
+  .standart-plan, .premium-plan {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 2rem;
+  }
+  .standart-plan {
+    margin-bottom: 2rem;
+  }
+  .plan-icon {
+    margin-top: 1rem;
+    width: 15%;
+  }
+  .plan-apply-btn {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  header {
+    height: 40rem;
+  }
+  .header-info-block {
+    width: 90%;
+  }
+  .services-block-item {
+    width: 70%;
+  }
+  .about-block-content {
+    width: 97%;
+  }
+  .first-about-item, .fourth-about-item {
+    width: 55%;
+  }
+  .second-about-item, .third-about-item {
+    width: 80%;
+  }
+  .how-works-info, .work-steps {
+    width: 90%;
+  }
+  .news-block-main {
+    width: 85%;
+  }
+  .news-block-item.first {
+    margin-bottom: 1rem;
+  }
+  .subscription-content {
+    width: 80%;
+  }
+  .news-block-info {
+    width: 70%;
+  }
+  .footer-subscription {
+    height: 65%;
+  }
+  .footer-main {
+    height: 35%;
+  }
+  .footer-main {
+    flex-direction: column;
+  }
+  .pricing-plan-title {
+    margin-top: 1rem;
+  }
+  .free-trial-content {
+    margin-top: 0;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .how-works-title, .news-block-title {
+    margin-top: 1rem;
+  }
+  .header-info-block {
+    padding-top: 1rem;
+  }
+  .phone-block {
+    width: 75%;
+  }
+  .testimonials-info {
+    width: 85%;
+  }
+  .work-steps-item {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  html {
+    font-size: 70%;
+  }
+  .about-block-content {
+    grid-template-rows: 14rem 17rem 16rem 15rem;
+    margin-bottom: 4rem;
+  }
+  .news-block-items {
+    grid-template-rows: 3fr 1fr 1fr 1fr;
+  }
+  .subscription-content, .free-trial-content {
+    width: 90%;
+  }
+}
+
+/* ADAPTIVE END */

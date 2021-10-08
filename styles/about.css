@@ -1,0 +1,111 @@
+/* ABOUT BLOCK */
+
+.about-block {
+  display: flex;
+  justify-content: center;
+  height: 74.375rem;
+}
+
+.about-block-content {
+  display: grid;
+  grid-template-areas: "post1 post2" "post3 post4";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 70.36%;
+  max-width: 1400px;
+  height: 100%;
+}
+
+.first-about-item {
+  grid-area: post1;
+}
+
+.second-about-item {
+  grid-area: post2;
+}
+
+.third-about-item {
+  grid-area: post3;
+}
+
+.fourth-about-item {
+  grid-area: post4;
+}
+
+.first-about-item, .fourth-about-item {
+  position: relative;
+}
+
+.about-bg, .about-photo {
+  position: absolute;
+  z-index: 3;
+}
+
+.about-bg.first {
+  width: 85.6%;
+  top: -7%;
+  left: -12%;
+}
+
+.about-photo.first {
+  width: 82.6%;
+  top: 10%;
+}
+
+.about-bg.second {
+  width: 92.7%;
+  left: -5.2%;
+}
+
+.about-photo.second {
+  width: 58.1%;
+  top: 5%;
+}
+
+.about-title {
+  margin-top: 9.625rem;
+  margin-bottom: 1.875rem;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+.about-text {
+  width: 70%;
+  margin-bottom: 2.1875rem;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 150%;
+}
+
+.about-link-block {
+  display: flex;
+  align-content: center;
+  width: 10.4rem;
+  justify-content: space-between;
+}
+
+.about-link {
+  font-style: normal;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 150%;
+  text-decoration: none;
+  color: #0063DD;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.about-link:hover {
+  filter: invert(1);
+}
+
+.about-link-block img {
+  width: 41%;
+}
+
+/* ABOUT BLOCK END */

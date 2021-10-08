@@ -1,0 +1,154 @@
+/* NEWS BLOCK */
+
+.news-block {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 60.3125rem;
+}
+
+.news-block-info {
+  text-align: center;
+  width: 38.3%;
+}
+
+.news-block-title {
+  margin-top: 8.125rem;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+.news-block-text {
+  margin-top: 1.5625rem;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 150%;
+}
+
+.news-block-main {
+  width: 60.4%;
+  max-width: 1200px;
+  height: 100%;
+}
+
+.news-block-items {
+  display: grid;
+  column-gap: 1rem;
+  margin-top: 2.5rem;
+  height: 65%;
+  grid-template-areas: "post1 post2" "post1 post3" "post1 post4";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.news-block-item.first {
+  grid-area: post1;
+  width: 97%;
+}
+
+.news-block-item.second {
+  grid-area: post2;
+}
+
+.news-block-item.third {
+  grid-area: post3;
+}
+
+.news-block-item.fourth {
+  grid-area: post4;
+}
+
+.news-block-item.second, .news-block-item.third, .news-block-item.fourth {
+  display: flex;
+}
+
+.news-photo img {
+  box-shadow: 0 0.25rem 1.25rem rgba(0, 70, 156, 0.08);
+  border-radius: 0.3125rem;
+}
+
+.news-block-item.secondary .news-photo {
+  width: 41%;
+  margin-right: 1.875rem;
+}
+
+.news-title {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+  color: #000000;
+}
+
+.news-block-item.secondary .news-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 120%;
+}
+
+.news-block-item.secondary .news-text {
+  margin-top: 1.5625rem;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 150%;
+}
+
+.news-photo img {
+  width: 100%;
+}
+
+.news-block-item.main .news-title {
+  margin-top: 1.875rem;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 150%;
+  color: #0063DD;
+}
+
+.news-block-item.main .news-title:hover {
+  color: #000000;
+}
+
+.news-block-item.main .news-text {
+  margin-top: 1.5625rem;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 150%;
+}
+
+.news-continue-link {
+  margin-top: 5.1875rem;
+  display: flex;
+  align-content: center;
+  width: 13.5625rem;
+  justify-content: space-between;
+}
+
+.continue-link {
+  cursor: pointer;
+  width: 13.5625rem;
+  display: flex;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 150%;
+  text-decoration: none;
+  color: #0063DD;
+}
+
+.continue-link:hover {
+  filter: invert(1);
+}
+
+.news-continue-link img {
+  width: 31%;
+}
+
+/* NEWS BLOCK END */

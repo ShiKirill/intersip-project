@@ -1,0 +1,158 @@
+/* PRICING PLAN BLOCK */
+
+.pricing-plan {
+  display: flex;
+  justify-content: center;
+  height: 52.1875rem;
+}
+
+.pricing-plan-content {
+  display: flex;
+  width: 59.7%;
+  max-width: 1400px;
+}
+
+.pricing-plan-info {
+  width: 29%;
+  margin-right: 3.75rem;
+}
+
+.pricing-plan-title {
+  margin-top: 18.1875rem;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+.pricing-plan-text {
+  margin-top: 1.875rem;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 150%;
+}
+
+.plan-choise-container {
+  margin-top: 2.5rem;
+  height: 3.125rem;
+  display: flex;
+}
+
+.plan-choise-item {
+  cursor: pointer;
+  width: 50%;
+  border: 3px solid #0F7BFF;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0063DD;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+.plan-choise-item.active {
+  color: #FFFFFF;
+  background: #0F7BFF;
+}
+
+.plan-choise-item.first {
+  border-radius: 1.5625rem 0 0 1.5625rem;
+}
+
+.plan-choise-item.second {
+  border-radius: 0 1.5625rem 1.5625rem 0;
+}
+
+.premium-plan, .standart-plan {
+  width: 31.6%;
+  height: 69%;
+  box-shadow: 0 0.25rem 1.25rem rgba(0, 36, 80, 0.08);
+  margin-top: 8.125rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.premium-plan {
+  margin-right: 1.875rem;
+}
+
+.plan-icon {
+  margin-top: 2.4375rem;
+  width: 31.5%;
+}
+
+.plan-name {
+  margin-top: 1.25rem;
+}
+
+.underline {
+  margin-top: 1.5625rem;
+  width: 83.7%;
+  height: 1px;
+  border-top: 2px solid #E9F3F8;
+}
+
+.plan-attributes-list {
+  padding: 0;
+  margin-top: 1.4375rem;
+  margin-bottom: 0;
+  list-style: none;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 184%;
+  text-align: center;
+}
+
+.plan-price {
+  margin-top: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #0F7BFF;
+  display: flex;
+  align-items: flex-end;
+}
+
+.price-dollar {
+  font-size: 1.2rem;
+  margin-right: 0.1rem;
+  line-height: 50%;
+}
+
+.price-num {
+  line-height: 1.375rem;
+}
+
+.plan-apply-btn {
+  cursor: pointer;
+  margin-top: 2rem;
+  width: 45.9%;
+  height: 3.125rem;
+  background: #0F7BFF;
+  border-radius: 1.5625rem;
+  border: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  border: 2px solid #0F7BFF;
+  color: #FFFFFF;
+}
+
+.standart-plan .plan-apply-btn {
+  background-color: white;
+  color: #0F7BFF;
+  ;
+}
+
+.plan-apply-btn:hover {
+  transform: scale(1.1);
+}
+
+/* PRICING PLAN BLOCK END */

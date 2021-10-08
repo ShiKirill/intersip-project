@@ -1,0 +1,75 @@
+/* HOW WORKS BLOCK */
+
+.how-works {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 39.6875rem;
+  background: #F5FCFD;
+}
+
+.how-works-info {
+  width: 38%;
+  text-align: center;
+}
+
+.how-works-title {
+  margin-top: 7.4375rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+.how-works-text {
+  margin-top: 1.5625rem;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 150%;
+}
+
+.work-steps {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width: 58%;
+  margin-top: 2.8125rem;
+}
+
+.work-steps-item {
+  width: 29.95%;
+  text-align: center;
+}
+
+.work-steps-icon {
+  width: 30%;
+  position: relative;
+}
+
+.work-steps-title {
+  margin-top: 1.875rem;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+}
+
+.work-steps-text {
+  margin-top: 1.25rem;
+  padding: 0 1.1rem;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.work-steps-line {
+  width: 50.5%;
+  top: 22%;
+  height: 0.6rem;
+  position: absolute;
+}
+
+/* HOW WORKS BLOCK END */
