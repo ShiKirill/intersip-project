@@ -92,7 +92,7 @@ footer {
   background: #0063DD;
 }
 
-.footer-main img:hover, .footer-main a:hover {
+.footer-icon:hover, .footer-icon img:hover, .footer-main a:hover {
   filter: invert(1);
 }
 
